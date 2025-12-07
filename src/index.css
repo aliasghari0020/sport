@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import './assets/styles/colors.scss';
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@theme {
+    --color-primary: var(--color-danger);
+    --color-secondary: var(--color-secondary);
+    --color-info: var(--color-info);
+    --color-success: var(--color-success);
+    --color-danger: var(--color-danger);
+
+}
+
+
+html.dark {
+    --bg-color: #000;
+}
+
+html {
+    --bg-color:rgba(215, 215, 215, 1);
+}
+

@@ -1,0 +1,5 @@
+@use './Inter/index' as font;
+
+body {
+  font-family: font.$font !important;
+}
