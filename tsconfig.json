@@ -1,19 +1,19 @@
 {
   "compilerOptions": {
-    "moduleResolution": "bundler",
-    "module": "ESNext",
     "target": "ESNext",
-    "types": [
-      "tailwindcss"
-    ]
+    "module": "ESNext",
+    "lib": ["DOM", "ESNext"],
+    "jsx": "react-jsx",
+    "moduleResolution": "Node",
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+        "types": ["vite/client"],     
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true
   },
-  "files": [],
-  "references": [
-    {
-      "path": "./tsconfig.app.json"
-    },
-    {
-      "path": "./tsconfig.node.json"
-    }
-  ]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }

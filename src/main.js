@@ -1,0 +1,10 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+import { loadTheme } from "./utils/themeLoader";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import './assets/fonts/index.scss';
+import './index.css';
+import './i18n';
+loadTheme();
+ReactDOM.createRoot(document.getElementById('root')).render(_jsx(React.StrictMode, { children: _jsx(App, {}) }));

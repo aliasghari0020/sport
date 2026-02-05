@@ -1,18 +1,18 @@
 import React, {useRef} from "react";
 import {useReactToPrint} from "react-to-print";
-import {useDiet} from "../context/DietContext.tsx";
+import {useDiet} from "../context/DietContext";
 import {Box, Button} from "@mui/material";
 
-import BreakfastSection from "../components/HomePage/BreakfastSection.tsx";
-import LunchSection from "../components/HomePage/LunchSection.tsx";
-import SnacksSection from "../components/HomePage/SnacksSection.tsx";
-import DrinksSection from "../components/HomePage/DrinksSection.tsx";
-import TipsSection from "../components/HomePage/TipsSection.tsx";
+import BreakfastSection from "../components/HomePage/BreakfastSection";
+import LunchSection from "../components/HomePage/LunchSection";
+import SnacksSection from "../components/HomePage/SnacksSection";
+import DrinksSection from "../components/HomePage/DrinksSection";
+import TipsSection from "../components/HomePage/TipsSection";
 
-import DefaultLayout from "../layouts/DefaultLayout.tsx";
-import InfoBox from "../components/HomePage/InfoBox.tsx";
-import DinnerSection from "../components/HomePage/DinnerSection.tsx";
-import DietSpecsSection from "../components/HomePage/DietSpecsSection.tsx";
+import DefaultLayout from "../layouts/DefaultLayout";
+import InfoBox from "../components/HomePage/InfoBox";
+import DinnerSection from "../components/HomePage/DinnerSection";
+import DietSpecsSection from "../components/HomePage/DietSpecsSection";
 
 const HomePage: React.FC = () => {
     const {state} = useDiet();

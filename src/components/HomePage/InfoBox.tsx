@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { useDiet } from "../../context/DietContext.tsx";
+import { useDiet } from "../../context/DietContext";
 import { Box, Paper, Typography } from "@mui/material";
 
 const HomePage: React.FC = () => {

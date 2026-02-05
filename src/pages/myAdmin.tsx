@@ -1,14 +1,14 @@
-import DefaultLayout from "../layouts/DefaultLayout.tsx";
+import DefaultLayout from "../layouts/DefaultLayout";
 import React, { useState } from "react";
 import { Tabs, Tab, Box } from "@mui/material";
-import PatientInfoTab from "../components/AdminTabs/PatientInfoTab.tsx";
-import BreakfastTab from "../components/AdminTabs/BreakfastTab.tsx";
-import LunchTab from "../components/AdminTabs/LunchTab.tsx";
-import DinnerTab from "../components/AdminTabs/DinnerTab.tsx";
-import DrinksTab from "../components/AdminTabs/DrinksTab.tsx";
-import SnackTab from "../components/AdminTabs/SnackTab.tsx";
-import TipsTab from "../components/AdminTabs/TipsTab.tsx";
-import DietSpecsTab from "../components/AdminTabs/DietSpecsTab.tsx";
+import PatientInfoTab from "../components/AdminTabs/PatientInfoTab";
+import BreakfastTab from "../components/AdminTabs/BreakfastTab";
+import LunchTab from "../components/AdminTabs/LunchTab";
+import DinnerTab from "../components/AdminTabs/DinnerTab";
+import DrinksTab from "../components/AdminTabs/DrinksTab";
+import SnackTab from "../components/AdminTabs/SnackTab";
+import TipsTab from "../components/AdminTabs/TipsTab";
+import DietSpecsTab from "../components/AdminTabs/DietSpecsTab";
 
 
 const AdminTabs: React.FC = () => {
