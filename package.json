@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "test": "vitest",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+  "deploy": "gh-pages -d dist -b gh-pages -r https://github.com/aliasghari0020/sport.git"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
