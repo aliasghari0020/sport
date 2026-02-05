@@ -4,6 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 import i18nextLoader from 'vite-plugin-i18next-loader'
 
 export default defineConfig({
+      base: '/sport/',
     plugins: [react(), tailwindcss(), i18nextLoader({
         paths: ['./src/locales'],
         include: ['**/*.json', '**/*.yaml'],
